@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 function FormPage() {
   const [formData, setFormData] = useState({
     name: "",
+    fathersName: "",
     email: "",
     phone: "",
     state: "",
     district: "",
-    fathersName: "",
   });
   const navigate = useNavigate();
 
